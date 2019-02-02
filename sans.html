@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Sans</title>
+
+    <style>
+      #Sans_img{
+        text-align :center;
+        border:0;
+        width:500;
+        height:500;
+      }
+
+      body{background-color:black;}
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id=Sans_img>
+      <img src = "img/Sans.png" onclick="CS()" id = "abc">
+    </div>
+
+<script>
+  function CS(){
+    var img = document.getElementById("abc")
+
+    if(img.src.match("Sans")){
+      img.src = "img/SA.png"
+    }
+    else {
+      img.src = "img/Sans.png"
+    }
+  }
+
+</script>
+
+  </body>
+
+</html>
